@@ -149,7 +149,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: ${{ env.PACKAGED_OUTPUTDATE }} 🚀 N1-Openwrt-img | 编译
+        name: ${{ env.PACKAGED_OUTPUTDATE }} 🚀 N1-Openwrt | 编译
         tag_name: ${{ env.PACKAGED_OUTPUTDATE }}
         files: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
